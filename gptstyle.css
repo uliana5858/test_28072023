@@ -1,0 +1,63 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(238, 238, 246, 1);
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background: rgba(23, 39, 85, 1);
+    background-image: url("img/Subtract_grey_pattern.png");
+    background-repeat: no-repeat;
+    width: 1600px;
+}
+
+/* Add more styles for .header, .horizontal-menu, and other elements as needed for larger screens */
+
+/* Styles for medium-sized screens */
+@media screen and (max-width: 1200px) {
+    .header {
+        width: 100%;
+    }
+    .horizontal-menu {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .horizontal-menu li {
+        margin-right: 20px;
+        margin-bottom: 10px;
+    }
+    /* Add more styles as needed for medium-sized screens */
+}
+
+/* Styles for small screens */
+@media screen and (max-width: 768px) {
+    .header {
+        background-size: cover;
+        text-align: center;
+    }
+    .horizontal-menu {
+        flex-direction: column;
+    }
+    .horizontal-menu li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    /* Add more styles as needed for small screens */
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(238, 238, 246, 1);
+}
+
+.header {
+    background: rgba(23, 39, 85, 1);
+    background-image: url("img/Subtract_grey_pattern.png");
+    background-repeat: no-repeat;
+    width: 1600px;
+}
